@@ -1,0 +1,121 @@
+{
+  "info": {
+    "_postman_id": "express-lab2-books-api",
+    "name": "Express Lab 2 - Book CRUD API",
+    "description": "Complete collection of CRUD requests for Express Lab 2 with SQLite database.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. GET All Books",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["books", ""]
+        },
+        "description": "Fetch all book records from the database."
+      },
+      "response": []
+    },
+    {
+      "name": "2. GET Single Book by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/1/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["books", "1", ""]
+        },
+        "description": "Fetch a single book record by its ID."
+      },
+      "response": []
+    },
+    {
+      "name": "3. POST Add New Book",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"The Alchemist\",\n  \"author\": \"Paulo Coelho\",\n  \"price\": 350,\n  \"pages\": 208\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["books", ""]
+        },
+        "description": "Insert a new book record into the database."
+      },
+      "response": []
+    },
+    {
+      "name": "4. PUT Update Book by ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"The Alchemist (Special Edition)\",\n  \"author\": \"Paulo Coelho\",\n  \"price\": 499,\n  \"pages\": 220\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/1/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["books", "1", ""]
+        },
+        "description": "Update the details of an existing book by its ID."
+      },
+      "response": []
+    },
+    {
+      "name": "5. DELETE Book by ID",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/11/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["books", "11", ""]
+        },
+        "description": "Delete a book record from the database by its ID."
+      },
+      "response": []
+    }
+  ]
+}
+
