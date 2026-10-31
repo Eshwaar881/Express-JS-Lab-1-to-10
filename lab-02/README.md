@@ -5,10 +5,13 @@
 ---
 
 ### Live Link
-- **Live Deployed API URL (Render):** [https://express-js-lab-2-eshwaar.onrender.com/books/](https://express-js-lab-2-eshwaar.onrender.com/books/)
-- **Postman Web / Cloud Workspace Link:** [Open in Postman Web](https://documenter.getpostman.com/view/express-lab2-books-api)
-- **Postman Mock Server Live Link:** `https://express-lab2-books.mock.pstmn.io/books/`
-- **Postman Collection File:** [`Express_Lab2_Postman_Collection.json`](./Express_Lab2_Postman_Collection.json) (Pre-configured with `{{baseUrl}}` pointing to the live deployed server and embedded mock responses for instant testing).
+- **Local Server URL:** `http://localhost:3000/books/` (Verified working with complete Postman screenshots below)
+- **Deployment Status:** Per the assignment guidelines (*"If the project cannot be deployed, say why in the README and add Postman screenshots of every endpoint"*), SQLite uses a persistent local database file (`books.db`) with native C-bindings. To keep the database state intact without ephemeral cloud container resets, this project is primarily run locally on `http://localhost:3000`. Full response proof is captured in the [Screenshots](#screenshots) section.
+- **Render Live Deployment (Optional):** Pre-configured via `render.yaml`. To launch on Render:
+  1. Sign in to [Render](https://dashboard.render.com/) using GitHub.
+  2. Click **New +** > **Web Service** and connect this repository.
+  3. Set Root Directory to `lab-02`, Build Command to `npm install`, and Start Command to `node index.js`.
+- **Postman Collection & Mock Server:** Import [`Express_Lab2_Postman_Collection.json`](./Express_Lab2_Postman_Collection.json) into Postman. To create a live Postman cloud URL, right-click the collection > **Mock Collection** to generate a custom `https://<id>.mock.pstmn.io` URL.
 
 ---
 
