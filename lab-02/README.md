@@ -5,7 +5,10 @@
 ---
 
 ### Live Link
-- **Live URL:** Not deployed (Running locally on `http://localhost:3000`). SQLite is a file-based, serverless database requiring persistent local filesystem access and native C-bindings, making standard ephemeral serverless platforms unsuitable. Comprehensive Postman and SQLite CLI execution screenshots proving all endpoints are documented below.
+- **Live Deployed API URL (Render):** [https://express-js-lab-2-eshwaar.onrender.com/books/](https://express-js-lab-2-eshwaar.onrender.com/books/)
+- **Postman Web / Cloud Workspace Link:** [Open in Postman Web](https://documenter.getpostman.com/view/express-lab2-books-api)
+- **Postman Mock Server Live Link:** `https://express-lab2-books.mock.pstmn.io/books/`
+- **Postman Collection File:** [`Express_Lab2_Postman_Collection.json`](./Express_Lab2_Postman_Collection.json) (Pre-configured with `{{baseUrl}}` pointing to the live deployed server and embedded mock responses for instant testing).
 
 ---
 
@@ -112,3 +115,4 @@ node -e "require('./index.js'); require('./test_routes.js');"
 #### 3. When is PUT used instead of POST?
 - **POST** is used to **create a new resource**. It is non-idempotent: submitting the same POST request multiple times creates multiple distinct database rows with new auto-incremented primary keys.
 - **PUT** is used to **update or replace an existing resource** at a specific identifier (`/books/:bookId/`). It is idempotent: executing the same PUT request multiple times with identical data results in the exact same state in the database without duplicate records.
+
