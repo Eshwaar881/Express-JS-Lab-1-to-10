@@ -69,17 +69,17 @@ node -e "require('./index.js'); require('./test_routes.js');"
 #### 3. POST Add New Book (`POST /books/`)
 ![POST Add Book](screenshots/03_post_new_book.png)
 
-#### 4. PUT Update Book by ID (`PUT /books/11/`)
+#### 4. PUT Update Book by ID (`PUT /books/12/`)
 ![PUT Update Book](screenshots/04_put_update_book.png)
 
-#### 5. DELETE Book by ID (`DELETE /books/11/`)
+#### 5. DELETE Book by ID (`DELETE /books/12/`)
 ![DELETE Book](screenshots/05_delete_book.png)
 
-#### 6. GET Non-Existent Book (`GET /books/11/` - 404 Not Found)
+#### 6. GET Non-Existent Book (`GET /books/12/` - 404 Not Found)
 ![GET Not Found Error](screenshots/06_get_not_found.png)
 
-#### 7. SQLite CLI Verification (`books.db` file changes)
-![SQLite CLI Verification](screenshots/07_sqlite_cli_verification.png)
+#### 7. Live Server & Database Verification (`books.db` file changes)
+![Live Server Verification](screenshots/07_sqlite_cli_verification.png)
 
 ---
 
