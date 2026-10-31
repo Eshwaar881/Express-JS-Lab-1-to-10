@@ -13,7 +13,7 @@ This repository contains coursework and lab submissions for the course:
 | Folder | Title | Live Link | Status |
 |---|---|:---:|:---:|
 | [lab-01/](lab-01/) | **Lab 1: Node.js and Express server** | `http://localhost:3000` | Completed |
-| [lab-02/](lab-02/) | **Lab 2: SQLite database and CRUD routes** | [Live API Link](https://express-js-lab-2-eshwaar.onrender.com/books/) · [Postman Workspace](https://documenter.getpostman.com/view/express-lab2-books-api) | Completed |
+| [lab-02/](lab-02/) | **Lab 2: SQLite database and CRUD routes** | [🚀 Live API](https://express-js-lab-1-to-10.onrender.com/books/) | Completed |
 | `lab-03/` | *Upcoming Lab* | - | Pending |
 | `...` | *...* | - | Pending |
 | `lab-10/` | *Upcoming Lab* | - | Pending |

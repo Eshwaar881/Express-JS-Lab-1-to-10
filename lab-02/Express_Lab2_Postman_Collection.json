@@ -8,7 +8,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "https://express-js-lab-2-eshwaar.onrender.com",
+      "value": "https://express-js-lab-1-to-10.onrender.com",
       "type": "string",
       "description": "Live deployed server URL on Render"
     },
