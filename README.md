@@ -13,9 +13,9 @@ This repository contains coursework and lab submissions for the course:
 | Folder | Title | Live Link | Status |
 |---|---|:---:|:---:|
 | [lab-01/](lab-01/) | **Lab 1: Node.js and Express server** | `http://localhost:3000` | Completed |
-| [lab-02/](lab-02/) | **Lab 2: SQLite database and CRUD routes** | [🚀 Live API](https://express-js-lab-1-to-10.onrender.com/books/) | Completed |
-| `lab-03/` | *Upcoming Lab* | - | Pending |
-| `...` | *...* | - | Pending |
+| [lab-02/](lab-02/) | **Lab 2: SQLite database and CRUD routes** | [🌐 Live API](https://express-js-lab-1-to-10.onrender.com/books/) | Completed |
+| [lab-03/](lab-03/) | **Lab 3: REST API, query parameters, validation, debugging** | [🌐 Live API](https://express-js-lab-1-to-10.onrender.com/books/) | Completed |
+| `...` | *Upcoming Labs (lab-04 to lab-10)* | - | Pending |
 | `lab-10/` | *Upcoming Lab* | - | Pending |
 
-For detailed documentation, endpoints, instructions, and output screenshots, please see [lab-01/README.md](lab-01/README.md) and [lab-02/README.md](lab-02/README.md).
+For detailed documentation, endpoints, instructions, and output screenshots, please see [lab-01/README.md](lab-01/README.md), [lab-02/README.md](lab-02/README.md), and [lab-03/README.md](lab-03/README.md).
